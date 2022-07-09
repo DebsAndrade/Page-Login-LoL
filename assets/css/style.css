@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+}
+
+main {
+    width: 100vw;
+    display: flex;
+}
+
+main aside.formulario {
+    width: 21.3vw;
+    padding: 5.68vw 2.47vw 0;
+}
+
+main aside.formulario img.riot-games {
+    width: 8.46vw;
+    height: 2.43vw;
+    margin-left: 3.92vw;
+    margin-bottom: 3.25vw;
+
+}
+
+main aside.formulario p.login {
+    font-size: 1em;
+    font-weight: 700;
+    line-height: 1.51em;
+    color: #2C2B2B;
+    text-align: center;
+}
+
+main aside.formulario, form {
+    display: flex;
+    flex-direction: column;
+}
+
+main aside.formulario input[type=text] {
+    margin-top: 0.39vw;
+    margin-bottom: 0.90vw;
+}
+
+main aside.formulario input[type=text], input[type=password] {
+    width: 16.29vw;
+    height: 3.1vw;
+    background-color: #E8E6E6;
+    border-radius: 5px;
+    padding: 0.51vw 0.70vw;
+    position: relative;
+}
+
+main aside.formulario input::placeholder {
+    font-size: 0.94em;
+    font-weight: 500;
+    line-height: 1.13em;
+    position: absolute;
+}
+
+main aside.formulario form div {
+    display: flex;
+    justify-content: space-between;
+}
+
+main aside.formulario form div button {
+    width: 4.31vw;
+    height: 1.68vw;
+    margin-top: 1.72vw;
+    border-radius: 5px;
+}
+
+main aside.formulario form div button.facebook {
+    background-color: #2051FF;
+}
+
+main aside.formulario form div button.facebook img {
+    width: 0.94vw;
+    height: 0.94vw;
+}
+
+main aside.formulario form div button.google {
+    background-color: #8A0000;
+}
+
+main aside.formulario form div button.google img {
+    width: 1.06vw;
+    height: 1.06vw;
+}
+
+main aside.formulario form div button.apple {
+    background-color: #000000;
+}
+
+main aside.formulario form div button.apple img {
+    width: 1.14vw;
+    height: 1.14vw;
+}
+
+main aside.formulario form div.manter-login-lol {
+    display: inline;
+    margin-top: 1.21vw;
+}
+
+main aside.formulario form div.manter-login-lol label {
+    font-size: 1em;
+    font-weight: 700;
+    line-height: 1.51em;
+    color: #000000;
+}
+
+main aside.formulario form button.button-red {
+    width: 2vw;
+    height: 1.84vw;
+    margin-top: 5.32vw;
+    border-radius: 10px;
+    background-color: #FF002E;
+    margin-left: 7.05vw;
+    padding: 0.39vw 0.47vw;
+    margin-bottom: 0.39vw;
+}
+
+main aside.formulario form button.button-red:disabled {
+    opacity: 21%;
+}
+
+main aside.formulario form button.button-red img {
+    width: 1.06vw;
+    height: 1.06vw;
+}
+
+main aside.formulario form p.sessao, p.criar-conta {
+    text-align: center;
+    font-size: 0.75em;
+    font-weight: 500;
+    line-height: 1.25em;
+    margin-top: 0.21vw;
+}
+
+main aside.formulario form p a {
+    color: #A6A6A6;
+}
+
+main aside.imagem-lol img {
+    width: 78.7vw;
+    height: auto;
+}
