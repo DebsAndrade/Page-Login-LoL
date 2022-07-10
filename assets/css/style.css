@@ -112,7 +112,7 @@ main aside.formulario form div.manter-login-lol label {
     color: #000000;
 }
 
-main aside.formulario form button.button-red {
+main aside.formulario form button.red-button {
     width: 2vw;
     height: 1.84vw;
     margin-top: 5.32vw;
@@ -123,11 +123,11 @@ main aside.formulario form button.button-red {
     margin-bottom: 0.39vw;
 }
 
-main aside.formulario form button.button-red:disabled {
+main aside.formulario form button.red-button:disabled {
     opacity: 21%;
 }
 
-main aside.formulario form button.button-red img {
+main aside.formulario form button.red-button img {
     width: 1.06vw;
     height: 1.06vw;
 }
